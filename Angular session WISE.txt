@@ -1,0 +1,90 @@
+					Angular Sessions
+
+Angular: in angular code server side tech we r gng to get only data and then it is given to the client side.pages are designed in client side not in server side.
+	 rest API(webservice) will connect to DAO layer and DAO connects to DB
+website:interaction with user
+webservice:interacts application to application
+JSON format:stored in the form of (key,value)
+rest API:reading data from diff technoligies ike java,python,.net and convert data into JSON format as we as XMl format. 
+MAVEN build tool:it heps us to build a REST API project.
+JERSEY library:it provides set of JAR files(like jstl jar file)
+
+
+********************************************************************************************
+
+ECILPSE:
+create workspace
+right click new - other-select MAVEN project
+filter jersy - goto add archetype- goto googe - search jersy maven archetype-seect link-copy(given ink copy from it)
+copy grpId and copy in 1st textbox
+artifactId in 2nd textbox and version
+OK
+check in the filter
+new mavan project
+grpId - com.ts
+arti:RESTAPI(projectId)-finish-wait unti the progress bar reaches 100%-u will get the project
+*****if you did not get fies in the project right click on pom.xml(it adds the required jar fies) and then select maven and select Maven and select maven install****
+attach apchetomcat to apche eclipse(buildpath-configurebuid path-ibrarirs-add ibrary-serverruntime-add apache)
+
+when we run index.jsp we will get a webpage when we cick on jersey resource it wi dispay Got it it is predefined
+
+from index.jsp it goes to web.xml and then to myresource.java
+REStAPI>JAVARESOURSES>MyResource.java
+
+
+*********************************************************************************************
+Component:used to decorate webpage.It is ogica piece of code in angular application.
+Angular heps us to run singe component in the page rather than whole page.
+
+1)Template:HTM page
+2)Class:Varibes,methods,constructors.
+
+Typescript:Upper layer of java script.It is automatically converted into JS
+
+Angular concepts:
+----------------
+1)components
+2)Direcives
+3)pipes
+4)modules
+5)service
+
+One way data binding{{}}: accesing from typescript to view Component(html)(interpolation{{}})
+Two way data binding   ->  Accesing data from View component to typescript(ngmodel)
+
+***************************************************************************************
+we  are using tyscript language in angular
+
+1st version is AngularJS -> Javascript
+other versions are Anguar2,3,4,5,6...(uses typescript)
+Javascript:it is object based anguauge(only class & object)
+typescript : it is OOP lang(class,object,inheritance,polymorphism)
+
+every thing shoud be registered & imported in app.modue.ts
+
+*********************************************************************************************
+
+*authguard is used as a guard.if we use this the user can not enter other pages without
+login.
+ 
+COMMANDS:
+*********
+for running project      -  ng s --o
+for creating component   -  ng g c component_name
+for creating pipe        -  ng g p pipe_name
+for creating authguard   -  ng g authguard_name
+for removing unwanted things(spec.ts) while creating use --skip-tests
+
+
+URL for all countries-> https://restcountries.eu/rest/v2/all
+UR -> 
+
+
+
+
+
+
+
+
+
+
